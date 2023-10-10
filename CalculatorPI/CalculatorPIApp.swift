@@ -11,7 +11,7 @@ import SwiftUI
 struct CalculatorPIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(currentValue: 10, lastValue: 10, currentOperation: Operation.add)
         }
     }
 }
